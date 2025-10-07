@@ -1,0 +1,40 @@
+.img-apparence {
+    height: 50%;
+    object-fit: cover;
+
+}
+
+main {
+    background: linear-gradient(rgba(240, 240, 240, 0.5), rgba(240, 240, 240, 0.1)), url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* opacity: 0.5; */
+}
+
+@media (min-width: 576px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    main div {
+        margin: calc(100%v);
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (min-width: 992px) {
+    body {
+        width: 75%;
+        margin: 0 auto;
+    }
+}

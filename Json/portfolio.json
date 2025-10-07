@@ -1,0 +1,26 @@
+[
+    {
+        "title":"Moonwalkers On Tour",
+        "img":"/img/portfolio/rockband.png",
+        "description":"Sito a pagina singola per la presentazione di un evento di una rockband locale",
+        "link":"http://gualty-moonwalkers.netlify.app"
+    },
+    {
+        "title":"Antica Osteria",
+        "img":"/img/code.jpg",
+        "description":"Work In Progress",
+        "link":"dettagli Development"
+    },
+        {
+        "title":"Meteo Online",
+        "img":"/img/code.jpg",
+        "description":"Work In Progress",
+        "link":"dettagli Network"
+    },
+    {
+        "title":"Nasa",
+        "img":"/img/code.jpg",
+        "description":"Work In Progress",
+        "link":"dettagli Server"
+    }
+]

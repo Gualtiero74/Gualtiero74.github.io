@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Design",
+        "img": "/img/design.jpg",
+        "description": "Design e sviluppo siti web",
+        "link": "#design"
+    },
+    {
+        "title": "Development",
+        "img": "/img/code.jpg",
+        "description": "Sviluppo software gestionali",
+        "link": "#development"
+    },
+    {
+        "title": "Network",
+        "img": "/img/network.jpg",
+        "description": "Sviluppo e manutenzione Reti private, piccole e medie aziende",
+        "link": "#network"
+    },
+    {
+        "title": "Server",
+        "img": "/img/server.jpg",
+        "description": "Installazione, configurazione e manutenzione",
+        "link": "#server"
+    }
+]

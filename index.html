@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="/css/p-style.css">
   <script src="https://kit.fontawesome.com/31b74fb2f6.js" crossorigin="anonymous"></script>
   <script src="script/bootstrap.bundle.js" defer></script>
+  <script src="/script/pscript.js" defer></script>
+  
 </head>
 
 <body>
@@ -95,108 +97,16 @@
   </Section>
   <hr>
   <!-- Servizi -->
-  <Section class="mb-5">
+  <Section class="mb-5" >
     <h2 class="text-center p-4 fs-1">I Miei Servizi</h2>
-    <div class="card-group gap-1 p-3">
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/design.jpg" class="card-img-top img-apparence" alt="Web">
-        <div class="card-body">
-          <h5 class="card-title">Design</h5>
-          <p class="card-text">Design e sviluppo siti web</p>
-        </div>
-        <div class="mt-auto p-3">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#design">
-            Dettagli
-          </button>
-        </div>
-      </div>
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/code.jpg" class="card-img-top img-apparence" alt="code">
-        <div class="card-body">
-          <h5 class="card-title">Development</h5>
-          <p class="card-text">Sviluppo software gestionali</p>
-        </div>
-        <div class="mt-auto p-3">
-          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#development">
-            Dettagli
-          </button>
-        </div>
-      </div>
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/network.jpg" class="card-img-top img-apparence" alt="Network">
-        <div class="card-body">
-          <h5 class="card-title">Network</h5>
-          <p class="card-text">Sviluppo e manutenzione Reti private, piccole e medie aziende</p>
-        </div>
-        <div class="mt-auto p-3">
-          <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#network">
-            Dettagli
-          </button>
-        </div>
-      </div>
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/server.jpg" class="card-img-top img-apparence" alt="Server">
-        <div class="card-body">
-          <h5 class="card-title">Server</h5>
-          <p class="card-text">Installazione, configurazione e manutenzione</p>
-        </div>
-        <div class="mt-auto p-3">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#server">
-            Dettagli
-          </button>
-        </div>
-      </div>
+    <div class="card-group gap-1 p-3" id="service">
     </div>
   </Section>
   <hr>
   <!-- Portfolio -->
   <Section class="mb-5">
     <h2 class="text-center p-4 fs-1">Portfolio</h2>
-    <div class="card-group gap-1 p-3">
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/portfolio/rockband.png" class="card-img-top  img-apparence" alt="Web">
-        <div class="card-body">
-          <h5 class="card-title">Moonwalkers On Tour</h5>
-          <p class="card-text">Sito a pagina singola per la presentazione di un evento di una rockband locale</p>
-        </div>
-        <div class="card-footer">
-          <!-- <p>Last Update</p> -->
-          <a href="http://gualty-moonwalkers.netlify.app" target="_blank">Al Progetto</a>
-        </div>
-      </div>
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/code.jpg" class="card-img-top img-apparence" alt="code">
-        <div class="card-body">
-          <h5 class="card-title">Antica Osteria</h5>
-          <p class="card-text">Work In Progress</p>
-        </div>
-        <div class="card-footer">
-          <!-- <p>Last Update</p> -->
-          <a href="">Al Progetto</a>
-        </div>
-      </div>
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/network.jpg" class="card-img-top img-apparence" alt="Network">
-        <div class="card-body">
-          <h5 class="card-title">Meteo Online</h5>
-          <p class="card-text">Work In Progress</p>
-        </div>
-        <div class="card-footer">
-          <!-- <p>Last Update</p> -->
-          <a href="">Al Progetto</a>
-        </div>
-      </div>
-      <div class="card shadow-lg rounded-4 overflow-hidden ">
-        <img src="/img/server.jpg" class="card-img-top img-apparence" alt="Server">
-        <div class="card-body">
-          <h5 class="card-title">Nasa</h5>
-          <p class="card-text">Work In Progress</p>
-        </div>
-        <div class="card-footer">
-          <!-- <p>Last Update</p> -->
-          <a href="">Al Progetto</a>
-        </div>
-      </div>
+    <div class="card-group gap-1 p-3" id="portfolio">
     </div>
   </Section>
   <footer>
@@ -259,7 +169,6 @@
           </button>
 
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
 
         </div>
       </div>
@@ -285,7 +194,6 @@
           </button>
 
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
         </div>
       </div>
     </div>
@@ -312,13 +220,12 @@
           </button>
 
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Server -->ù
+  <!-- Server -->
   <div class="modal fade" id="server" tabindex="-1" aria-labelledby="serverModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -339,7 +246,6 @@
           </button>
 
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
         </div>
       </div>
     </div>

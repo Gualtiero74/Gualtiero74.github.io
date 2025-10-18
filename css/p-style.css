@@ -1,3 +1,62 @@
+/* :root{
+
+
+
+    --bs-primary-rgb: 13, 253, 253;
+
+}  */
+
+
+    
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+
+/* .text-primary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+} */
+
+
+.s1-container {
+  color:#919191;
+  text-transform: uppercase;
+  font-size:100px;
+  font-weight:bold;
+  width:100%;
+  top:30%;
+  display:block;
+}
+
+.s1-flip {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:500px;
+  overflow:hidden;
+}
+
+.s1-1,
+.s1-2,
+.s1-3{
+  color:rgb(75, 75, 75);
+  font-weight: 700;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 200px;
+}
+
+
 .img-apparence {
     height:50%;
     object-fit: cover;

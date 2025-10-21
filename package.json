@@ -4,13 +4,14 @@
   "description": "Sito Portfolio versione 3 con Bootstrap",
   "main": "index.js",
   "scripts": {
-    "compile:sass":"sass --watch scss:css",
+    "compile:sass": "sass --watch scss:css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Gualtiero Calabrese",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.5"
+    "bootstrap": "^5.3.5",
+    "validator": "^13.15.15"
   },
   "devDependencies": {
     "sass": "^1.87.0"

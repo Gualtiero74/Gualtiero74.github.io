@@ -1,14 +1,8 @@
 [
     {
-        "title": "Design",
+        "title": "Web",
         "img": "/img/design.jpg",
         "description": "Design e sviluppo siti web",
-        "link": "#design"
-    },
-    {
-        "title": "Development",
-        "img": "/img/code.jpg",
-        "description": "Sviluppo software gestionali",
         "link": "#development"
     },
     {
